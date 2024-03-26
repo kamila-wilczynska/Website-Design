@@ -23,9 +23,18 @@ h1 {
 	justify-content: center;
 }
 
+h2 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-weight: 700;
+	font-family: "Open Sans", sans-serif;
+	justify-content: left;
+}
+
 header {
 	position: relative;
-	background-image: url("/images/cyber-security-2776600_1280.jpg");
+	background-image: url("./images/cyber-security-2776600_1280.jpg");
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
 	height: 300px;
@@ -50,7 +59,6 @@ header::before {
 	background: url(https://source.unsplash.com/random);
 	z-index: -1;
 }
-
 .color {
 	width: 200px;
 	height: 100px;
@@ -152,14 +160,7 @@ section {
 	margin-bottom: 30px;
 }
 
-h2 {
-	margin-top: 20px;
-	margin-bottom: 30px;
-	font-size: 25px;
-	font-weight: 700;
-	font-family: "Open Sans", sans-serif;
-	justify-content: left;
-}
+
 
 .fonts {
 	display: inline-block;
