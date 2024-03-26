@@ -14,13 +14,15 @@ body {
 
 h1 {
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 60px;
 	font-family: "Roboto Mono", monospace;
 	height: 90%;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color:white;
+	
 }
 
 h2 {
@@ -34,8 +36,7 @@ h2 {
 
 header {
 	position: relative;
-	background-image: url("./images/cyber-security-2776600_1280.jpg");
-	background-color: rgba(0, 0, 0, 0.5);
+	background-image: url("https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/601083af0f05cd39567257af_6002086f72b727cbad01d1ec_blog-image.jpeg");
 	width: 100%;
 	height: 300px;
 	background-repeat: no-repeat;
@@ -48,17 +49,7 @@ header {
 	/* Center the header element */
 }
 
-header::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0.1;
-	background: url(https://source.unsplash.com/random);
-	z-index: -1;
-}
+
 .color {
 	width: 200px;
 	height: 100px;
