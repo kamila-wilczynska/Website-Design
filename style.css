@@ -1,119 +1,173 @@
 * {
 	margin: 0;
 	padding: 0;
-  }
+}
 
-  body { 
-	width: 80%; /* Set a fixed width for the body element */ 
-	margin: 0 auto; /* Center the body element within its parent */ 
-	text-align: center; /* Center the body element */ 
+body {
+	width: 80%;
+	/* Set a fixed width for the body element */
+	margin: 0 auto;
+	/* Center the body element within its parent */
+	text-align: center;
+	/* Center the body element */
+}
 
-  } 
-  header{
+h1 {
+	font-weight: 700;
+	font-size: 50px;
+	font-family: "Roboto Mono", monospace;
+	height: 90%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+	position: relative;
 	background-image: url("/images/cyber-security-2776600_1280.jpg");
+	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
 	height: 300px;
 	background-repeat: no-repeat;
 	justify-content: center;
-	width: 80%; /* Set a fixed width for the body element */ 
-	margin: 0 auto; /* Center the header element within its parent */ 
-	text-align: center; /* Center the header element */ 
-  }
+	width: 80%;
+	/* Set a fixed width for the body element */
+	margin: 0 auto;
+	/* Center the header element within its parent */
+	text-align: center;
+	/* Center the header element */
+}
 
-.color{
-	width:200px;
-	height:100px;
+header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.1;
+	background: url(https://source.unsplash.com/random);
+	z-index: -1;
+}
+
+.color {
+	width: 200px;
+	height: 100px;
 	border: 2px solid black;
-	display: inline-block;
 	text-align: center;
 	font-size: 25px;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	border-radius: 50px;
 }
 
-#color1{
-	background-color:#D20062;
-	
-  }
+.colors {
+	display: flex;
+	justify-content: center;
+}
 
-  #color2{
-	background-color:#D6589F;
-  }
+/* boxex colors */
 
-  #color3{
-	background-color:#D895DA;
-  }
+#color1 {
+	background-color: #d20062;
+}
 
-  #color4{
-	background-color:#C4E4FF;
-  }
+#color2 {
+	background-color: #d6589f;
+}
 
-  section {
+#color3 {
+	background-color: #d895da;
+}
+
+#color4 {
+	background-color: #c4e4ff;
+}
+
+section {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	
-  }
+	border-bottom: 2px groove blue;
+	padding: 20px 20px;
+}
 
- 
+/* fonts section */
 
-  #light300 {
+#light300 {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
-  }
+}
 
-  #light300italic{
+#light300italic {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	font-style: italic;
-  }
+}
 
-  #regular400{
+#regular400 {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-  }
-  #medium500{
+}
+
+#medium500 {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
-  }
-  
-  .fonts p{
+}
+
+.fonts p {
 	font-size: 20px;
 	line-height: 2;
-  }
+}
 
-  #thin100{
-	font-family:"Roboto Mono", monospace;
+#thin100 {
+	font-family: "Roboto Mono", monospace;
 	font-weight: 100;
+}
 
-  }
-  #thin100italic{
-	font-family:"Roboto Mono", monospace;
+#thin100italic {
+	font-family: "Roboto Mono", monospace;
 	font-weight: 100;
 	font-style: italic;
-  }
-  #extralight200{
-	font-family:"Roboto Mono", monospace;
+}
+
+#extralight200 {
+	font-family: "Roboto Mono", monospace;
 	font-weight: 200;
-  }
+}
 
-  #mlight300{
-	font-family:"Roboto Mono", monospace;
+#mlight300 {
+	font-family: "Roboto Mono", monospace;
 	font-weight: 300;
-  }
+}
 
+/* font styles  section */
 
+#h1example {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
 
-  h1 {
-	font-weight: 700;
-font-size: 30px;
-font-family: "Roboto Mono", monospace;
-  }
-
-  h2 {
+h2 {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	font-size: 25px;
 	font-weight: 700;
 	font-family: "Open Sans", sans-serif;
-  }
-  
+	justify-content: left;
+}
+
+.fonts {
+	display: inline-block;
+	margin: 10px 40px 10px 40px;
+}
+
+.styles {
+	display: block;
+	margin: 10px 40px 10px 40px;
+	text-align: center;
+}
+
+ul li {
+	text-align: center;
+	list-style: none;
+}
